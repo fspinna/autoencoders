@@ -20,6 +20,6 @@ setup(
         'scikit-learn',
         'setuptools-git'
     ],
-    package_data={'': ['*.npy']},
+    package_data={'': ['*.npy', '*.h5', '*.joblib']},
     include_package_data=True
 )

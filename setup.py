@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='autoencoders',
     version='0.0.1',
-    packages=['autoencoders'],  # find_packages(),  # ['autoencoders'],
+    packages=find_packages(),  # ['autoencoders'],
     url='',
     license='',
     author='Francesco Spinnato',

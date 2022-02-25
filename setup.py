@@ -18,5 +18,6 @@ setup(
         'scipy',
         'notebook',
         'scikit-learn'
-    ]
+    ],
+    package_data={'': ['*.npy']}
 )

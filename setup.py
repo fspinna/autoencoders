@@ -11,10 +11,12 @@ setup(
     description='',
     install_requires=[
         'tensorflow>=2.3.0',
-        'tensorflow-probability=0.12.2',
+        'tensorflow-probability==0.12.2',
         'numpy',
         'matplotlib',
         'pandas',
-        "scipy"
+        'scipy',
+        'notebook',
+        'scikit-learn'
     ]
 )

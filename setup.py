@@ -20,5 +20,6 @@ setup(
         'scikit-learn',
         'setuptools-git'
     ],
-    package_data={'': ['*.npy']}
+    package_data={'': ['*.npy']},
+    include_package_data=True
 )

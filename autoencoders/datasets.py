@@ -11,7 +11,7 @@ from autoencoders.utils import get_project_root
 
 
 def load_cbf(verbose=True):
-    folder = get_project_root() / "datasets" / "cached" / "cbf"
+    folder = get_project_root() / "cached_datasets" / "cached" / "cbf"
     X_train = np.load(folder / "X_train.npy")
     X_test = np.load(folder / "X_test.npy")
     y_train = np.load(folder / "y_train.npy")

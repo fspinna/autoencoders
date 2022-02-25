@@ -130,7 +130,7 @@ def build_vae(
 if __name__ == "__main__":
     from autoencoders.plots import plot_grouped_history, plot_latent_space, plot_reconstruction_vae, \
         plot_labeled_latent_space_matrix
-    from autoencoders.datasets import load_cbf
+    from autoencoders.cached_datasets import load_cbf
 
     X_train, y_train, X_test, y_test = load_cbf()
 
